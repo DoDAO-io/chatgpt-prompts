@@ -12,7 +12,7 @@ Then populate the questions in the following YAML template
     Kickstarter, Patreon, and Gofundme, or even a substitute for venture
     capital.
   answerKeys:
-    - 925df435
+    - B
   subTopics: []
   difficultyLevel: Medium
   choices:
@@ -21,11 +21,11 @@ Then populate the questions in the following YAML template
     - content: >-
         Juicebox is a platform for web3 native projects or DAOs to raise funds
         for their projects
-      key: 925df435
+      key: B
     - content: Juicebox is a platform for large corporations to create tokens
-      key: b39557b3
+      key: C
     - content: Juicebox is a platform for buying and selling NFTs
-      key: c1d6439e
+      key: D
 ```
 
 Here 
@@ -33,10 +33,10 @@ Here
 - content is the question
 - hint is constant as 'NoHint'
 - explanation field includes the explanation for the correct choice
-- answerKeys includes the currect choice
+- answerKeys includes the "key" field corresponding to the correct choice. The choices are present in the choices field that is explained below.
 - subTopics is empty array
 - difficultyLevel is Medium
-- choices has two fields. content is the content of the choice and a random for character string goes in key. The key corresponding to the correct choice goes in answerKeys
+- choices has two fields. "content" field is the content of the choice and a random character from A,B,C,D goes into the "key" Field. The key corresponding to the correct choice goes in "answerKeys" field. Make sure the correct choice is random for every question.
 
 Output the questions in yaml format and write all the yaml in "markdown code" so that its nicely formatted 
 
