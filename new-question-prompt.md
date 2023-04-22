@@ -6,7 +6,7 @@ Then populate the questions in the following YAML template
 - uuid: 440017c8-3054-413c-9766-f4064609d8b1
   type: SingleChoice
   content: What is Juicebox and what kind of projects does it serve?
-  hint: 'Nohint    '
+  hint: 'Nohint'
   explanation: >-
     Juicebox serves as a blockchain equivalent of crowdfunding platforms like
     Kickstarter, Patreon, and Gofundme, or even a substitute for venture
