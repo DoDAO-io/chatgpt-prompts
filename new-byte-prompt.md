@@ -1,4 +1,4 @@
-Create a tweet thread from the provided text. Try to keep the thread between 4-8 tweets.
+Create a tweet thread from the provided text. Try to keep the thread between 6-10 tweets. Keep the tweets as short as possible and add more number of tweets in thread.
 
 Populate the following yaml template with the information from the thread
 
