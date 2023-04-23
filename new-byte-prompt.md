@@ -1,5 +1,7 @@
 Create a tweet thread from the provided text. Try to keep the thread between 6-10 tweets. Keep the tweets as short as possible and add more number of tweets in thread.
 
+The contents of the tweets are for layman, so keep it as simple as possible.
+
 Populate the following yaml template with the information from the thread
 
 ```
@@ -48,7 +50,8 @@ Here is the discription of the fields
 - steps: Describe the list of tweet threads. Steps have three dynamic fields 
     1) name - infer it for the particulat tweet 
     2) content - contents of the tweet.
-    3) uuid - random generated uuid4.
+    3) uuid - random generated uuid4. Generate a new random uuidv4 for each uuid field.
+- created: is the ISO date reperesentation of the current date and time
 - other fields are all static and dont change.
 
 
