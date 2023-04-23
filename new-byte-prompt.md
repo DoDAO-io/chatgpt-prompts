@@ -1,4 +1,4 @@
-Create a tweet thread from the provided text. Try to keep the thread between 6-10 tweets. Keep the tweets as short as possible and add more number of tweets in thread.
+Create a tweet thread from the provided text. Try to keep the thread between 6-10 tweets. Keep the tweets short and add more number of tweets in thread.
 
 The contents of the tweets are for layman, so keep it as simple as possible.
 
