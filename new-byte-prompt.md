@@ -34,26 +34,6 @@ steps:
     name: Step 3
     stepItems: []
     uuid: 7d56df42-bafc-4dcb-9e9b-6b3811f32e3c
-  - content: >-
-      Because AMMs utilize smart contracts and mathematical formulas, traders
-      can exchange assets around the clock, while traditional trading is
-      restricted to operating hours.
-    name: Step 4
-    stepItems: []
-    uuid: 5b52f5f5-5d5d-4325-8c43-882106b69838
-  - content: >-
-      AMMs have reduced risks of price manipulation compared to order books that
-      are susceptible to it.
-    name: Step 5
-    stepItems: []
-    uuid: 9f2b07f1-964d-4b10-ae5e-97d53b29b95a
-  - content: >-
-      Additionally, AMMs have lower barriers to entry, allowing traders to add
-      liquidity to the pool and earn fees instead of requiring significant
-      capital to participate in the market.
-    name: Step 6
-    stepItems: []
-    uuid: c6a3b2f2-1e9c-4a8b-bcf6-01896c28f0de
 publishStatus: Live
 admins: []
 tags: []
@@ -62,4 +42,15 @@ created: '2023-04-13T18:58:14.031Z'
 ```
 
 Here is the discription of the fields
-- id: 
+- id: its a slug string. Infer or formulate it from the heading/name of the tweet
+- content: Few words describing the topic of tweet thread.
+- name: Infer a heading for tweet thread. Slugify this name and then use it in the id field defined above.
+- steps: Describe the list of tweet threads. Steps have three dynamic fields 
+    1) name - infer it for the particulat tweet 
+    2) content - contents of the tweet.
+    3) uuid - random generated uuid4.
+- other fields are all static and dont change.
+
+
+Create the output in the yaml format and show in markdown code format. Here is the test from which tweet thread needs to be created and then populated in the template.
+
