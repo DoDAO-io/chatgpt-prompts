@@ -17,3 +17,4 @@ Just use styled components for the variable specific css and use tailwind classe
 
 Write all the code in typescript as use types wherever possible and use them to make the code more explicit. 
 
+Just give the code for the component. I have all the other setup.
