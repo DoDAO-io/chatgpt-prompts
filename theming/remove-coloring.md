@@ -11,3 +11,8 @@ Here are the following variables that needs to be used
 - "--header-bg" - backforund color of the header
 - "--block-bg" - background color of larger divs or sections, or containers
 
+Please use styled components to keep the new classes within the component
+
+Just use styled components for the variable specific css and use tailwind classes for all the other styling
+
+Write all the code in typescript as use types whereever possible and use them to make the code more explicit. 
